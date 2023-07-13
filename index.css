@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;   
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -103,6 +106,7 @@ html, body{
 
 .fun-ppales{
     margin-top: 100px;
+    background-color: #D5E7F4;
 }
 .caja-tarjetas-funppales{
     /* width: 100%;
@@ -133,7 +137,7 @@ html, body{
 
 .tarjeta-funciones img{
     width: 500px;
-    height: 350px;
+    height: 500px;
     border-radius: 3px;
     transition: 0.5s; 
     
@@ -146,9 +150,10 @@ html, body{
     box-sizing: border-box;
     position: absolute;
     bottom: 240px;
-    background: rgb(27, 27, 27, 0.5);
+    background: rgba(8, 56, 247, 0.521);
     color: white;
     transition: 0.5s;
+    /* top:100px; */
  
 }
 
@@ -184,3 +189,13 @@ html, body{
 
 }
 
+.caja-pilldo{
+    display: flex;
+    justify-content: center;
+}
+.pilldo{
+    width: 1000px;
+    height: 500px;
+    border-radius: 3px;
+    display: flex;
+}
