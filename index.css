@@ -28,25 +28,23 @@ html, body{
 }  */
 
 
-.info-ppal{
+.caja-tarj-info{
     width: 100%;
     /* max-width: 1200px; */
     height: fit-content;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 1fr;
-    justify-items: center;
-    padding-top: 100px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
     
 
 }
 
 .titulo{
-    grid-column: 2 / 3;
     text-align: center;
     font-size: 1000px;
     color: #6a6a6a;   
     font-weight: 100;
+    margin-top: 50px;
 }
 
 .caja-info{
@@ -63,7 +61,7 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items:center;  
-    grid-row: 2 / 3;
+    
 }
 
 .caja-info:hover{
@@ -93,21 +91,28 @@ html, body{
 }
 
 .caja-info__3{
-    margin-right: 700px;
+    margin-right: 600px;
 }
 
 .caja-info__1{
-    margin-left: 700px;
+    margin-left: 600px;
 }
 
 
-/* Tipo tarjeta 2 */
+/* Tipo tarjetas 2 */
 
 .fun-ppales{
+    margin-top: 100px;
+}
+.caja-tarjetas-funppales{
     /* width: 100%;
     height: 1000px;
     background-color: blue; */
-    /* display:flex; */
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
     
 }
 
@@ -120,7 +125,9 @@ html, body{
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
     position:relative;
-    background-color: red;
+    /* background-color: red; */
+    
+
     
 }
 
