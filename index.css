@@ -35,8 +35,9 @@ html, body{
 
 .caja-tarj-info{
     width: 100%;
-    height: fit-content;
+    height: auto;
     display: flex;
+    flex-direction: row;
     padding-top: 50px;
     justify-content: center;
     height: auto;
